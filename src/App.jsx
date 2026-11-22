@@ -3,7 +3,7 @@ import './App.css';
 import yoda from './assets/yoda.jpg';
 
 function App() {
-  const deadline = new Date('2026-01-05T07:59:59Z').getTime();
+  const deadline = new Date('2026-11-30T07:59:59Z').getTime();
 
   const calculateTimeLeft = () => {
     const nowTime = Date.now();
