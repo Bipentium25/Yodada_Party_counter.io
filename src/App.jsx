@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import './App.css';
-import yoda from './assets/yoda.jpg';
+import turkey from './assets/turkey.jpeg';
 
 function App() {
   const deadline = new Date('2026-11-30T07:59:59Z').getTime();
@@ -49,7 +49,7 @@ function App() {
         </>
       )}
       <p>To yodada's end of party 😢</p>
-      <img src={yoda} alt="yoda" />
+      <img src={turkey} alt="yoda" />
     </div>
   );
 }
